@@ -11,7 +11,7 @@ console.log(partsNeeded);
 //    the following numbers: 3, 5, -6, 0, 7, 11
 console.log('2. Array of supplyChanges:');
 let supplyChanges = [3, 5, -6, 0, 7, 11];
-console.log(supplyChanges)
+console.log(supplyChanges);
 
 // 3. Console log the value of the second item in the 'supplyChanges' array
 console.log('3. Second supplyChange is:');
@@ -20,13 +20,13 @@ console.log(supplyChanges[1]);
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
 console.log('4. Removed item:');
-removedItem = supplyChanges.pop()
-console.log(removedItem)
+removedItem = supplyChanges.pop();
+console.log(removedItem);
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Adding 25 to supplyChanges.');
-supplyChanges.push(25)
-console.log(supplyChanges)
+supplyChanges.push(25);
+console.log(supplyChanges);
 
 // 6. Write a `for` loop that shows each value in the 'supplyChanges' array
 //    Use a console.log formatted as follows, where x is the value from the array
@@ -36,11 +36,11 @@ console.log(supplyChanges)
 console.log('6. Showing supplyChanges...');
 for (let i = 0; i < supplyChanges.length; i++) {
     if (supplyChanges[i] > 0) {
-        console.log(`Added ${supplyChanges[i]} parts.`)
+        console.log(`Added ${supplyChanges[i]} parts.`);
     } else if (supplyChanges[i] == 0) {
-        console.log('No Change.')
+        console.log('No Change.');
     } else if (supplyChanges[i] < 0) {
-        console.log(`Removed ${supplyChanges[i]} parts.`)
+        console.log(`Removed ${supplyChanges[i]} parts.`);
     }
 }
 
